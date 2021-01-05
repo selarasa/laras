@@ -1,0 +1,382 @@
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <Title>SELARAS.SERASA</Title>
+  <link rel="icon" href="aset/LOGO.png"/>
+  <div id="header">
+    <h1 class="jumbotext1">HELLO, FASHIONISTA! LET'S TO SHOPPING </h1>
+    <p class="jumbotext2">You want it, you get it! </p>
+   <a href="#Product" class="submit">Get Now!</a>
+  </div>
+
+  <div id="menu">
+    <a href="#header"><img class="img" src="aset/LOGO.png" width="80" height="30" align="center" alt="jumbotron"></a>
+             <div class="dropdown">
+              <a href="#header"><button class="dropbtn">Home</button></a>
+              <div class="dropdown-content">
+              </div>
+             </div>
+
+             <div class="dropdown">
+              <a href="#About"><button class="dropbtn">About US</button></a>
+              <div class="dropdown-content">
+              </div>
+            </div>
+
+            <div class="dropdown">
+            <button class="dropbtn">Contact &#9660;</button>
+              <div class="dropdown-content">
+              <a href="https://api.whatsapp.com/send?phone=628979424489&text=I%20want%20to%20buy%20a%20Product%20">WhatsApp</a>
+              <a href="https://m.facebook.com/LOCO-SelarasSerasa-580274229317750/">Facebook</a>
+              <a href="https://instagram.com/selaras.a?igshid=og88b8af6rml">Instagram</a>
+              </div>
+            </div>
+    
+            <div class="dropdown">
+              <a href="#Product"><button class="dropbtn">My Product</button></a>
+              <div class="dropdown-content">
+              </div>
+           </div>
+       </div>
+
+<div id="runningtext">
+    <marquee behavior="scroll" scrollamount="15" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+      Hello ladies and gentlemen, welcome to selaras.serasa website. Enjoy!
+    </marquee>
+ </div>
+ <link rel="stylesheet" type="text/css" href="UAS.css">
+ </head>
+
+<body>
+  <h2 id="Product">My Product</h2>
+ <table>
+    <tbody>
+      <tr>
+        <td class="shadow" >
+          <img src="aset/1 (5).png" alt="lorem" width="100%" />
+           <h3>T-Shirt</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+
+       <td class="shadow" >
+          <img src="aset/1.jpg" alt="lorem" width="100%" />
+           <h3>Cap</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+
+      <td class="shadow" >
+          <img src="aset/3.jpg" alt="lorem" width="100%" />
+           <h3>Hoodie</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+
+      <td class="shadow" >
+          <img src="aset/6.jpg" alt="lorem" width="100%" />
+           <h3>Cloth Mask</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+       
+       <tr>
+        <td class="shadow" >
+          <img src="aset/9.jpg" alt="lorem" width="100%" />
+           <h3>T-Shirt</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+
+       <td class="shadow" >
+          <img src="aset/7.jpg" alt="lorem" width="100%" />
+           <h3>Cap</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+
+      <td class="shadow" >
+          <img src="aset/8.jpg" alt="lorem" width="100%" />
+           <h3>Hoodie</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+
+      <td class="shadow" >
+          <img src="aset/12.jpg" alt="lorem" width="100%" />
+           <h3>Cloth Mask</h3>
+           <a href="#form"><input class="beli" type="Submit" value="Buy Now"/></a>
+          </td>
+        </tr>
+       </tbody>
+      </table>
+
+<div id="About">
+<div class="Profil">
+  <img src="aset/sinta.jpg" width="200" height="200" alt="sinta" class="me"> 
+  <p id="text3">&quot;Selarasa was made as a form of contribution to the various contributions and creativity of the nation's children by participating in turning the wheels of the small business economy among young people in the hope that Indonesia can become a country that can using and appreciate local brands.&quot;</p>
+  <h3>- Sinta Nurleta</h3>
+</div>
+
+      <div class="carousel">
+      <div class="mySlides fade">
+        <img src="aset/bb.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="aset/cc.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="aset/dd.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+      </div>
+
+
+<div class="faq"><section class="shadow">
+<h2>Frequently Asked Question </h2>
+<button class="accordion">Question 1</button>
+<div class="panel" align="left">
+  <p>Q : What items are available ?</p>
+  <p>A : T-shirts, hoodies, cloth masks, caps, and tote bags </p>
+</div>
+
+<button class="accordion">Question 2</button>
+<div class="panel" align="left">
+  <p>Q : How to order a product ?</p>
+  <p>A : You can choose the item you want, then you have to fill in the form provided </p>
+</div>
+
+<button class="accordion">Question 3</button>
+<div class="panel" align="left">
+  <p>Q : How to pay ?</p>
+  <p>A : You can pay by transfer to BRI bank by number 368001025082531</p>
+</div>
+
+<button class="accordion">Question 4</button>
+<div class="panel" align="left">
+  <p>Q : What are shipping option ?</p>
+  <p>A : JNE Express, Si Cepat, or J&T Express </p>
+</div>
+
+<button class="accordion">Question 5</button>
+<div class="panel" align="left">
+  <p>Q : How to cancel an order ?</p>
+  <p>A : If you cancel the order you can contact the contact listed, but there is no guarantee of a refund. </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+ </section></br>
+</div>
+
+
+<table class="assure">
+       <tr>
+           <td>
+              <h3 class="guarantee">FREE SHIPPING</h3>
+              <p>Free shipping if order above 200k</p>
+          </td>      
+          <td> 
+              <h3 class="guarantee">SUPPORT</h3>
+              <p>Contact&nbsp;us&nbsp;24&nbsp;hours 7&nbsp;days&nbsp;a&nbsp;week</p>
+           </td>
+           <td>
+              <h3 class="guarantee">7 DAYS RETURN</h3>
+              <p>if the item doesn't match what&nbsp;you&nbsp;ordered.</p>
+          </td>
+           <td> 
+              <h3 class="guarantee">PAYMENT&nbsp;SECURE</h3>
+              <p>We ensure secure 100% payment</p>
+           </td>
+       </tr>
+</table>
+
+
+<div id="form">
+ <h2 class="h2title">Order Form</h2>
+  <form>
+  <fieldset>
+    <table width="50%" cellspacing="10" cellpadding="9" align="center" class="get">
+      
+      <tr>
+        <td class="td">&nbsp;&nbsp;Name </td>
+        <td width="80%"><input type="text" name="Nama" placeholder="Full Name" size="30" required /></td>
+      </tr>
+
+      <tr>
+        <td>Email </td>
+        <td><input type="Email" name="Email" placeholder="ex : dwaynejohnson@gmail.com" size="30" width="20%" required/></td>
+      </tr>
+
+      <tr>
+        <td>Phone Number </td>
+        <td><input type="number" name="NOHP" placeholder="ex : 081593193131" size="30" required/></td>
+      </tr>
+
+      <tr>
+        <td>Address </td>
+        <td><input type="text" name="Alamat" placeholder="Full Address" size="30" required/></td>
+      </tr>
+
+      <tr>
+      <td>Order</td>
+        <td>
+          <select name="order" class="input">
+            <option value="">Select</option>
+            <option value="T-Shirt">T-Shirt</option>
+            <option value="Hoodie">Hoodie</option>
+            <option value="Tote Bag">Tote Bag</option>
+            <option value="Cap">Cap</option>
+            <option value="Cloth Mask">Cloth Mask</option>
+          </select>
+
+          <select name="size" class="input">
+            <option value="">Size</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+            <option value="None">None</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+      <td>Courier</td>
+        <td>
+          <select name="Courier" class="input">
+            <option value="">Select</option>
+            <option value="J&T Express">J&T Express</option>
+            <option value="JNE Express">JNE Express</option>
+            <option value="Si Cepat">Si Cepat</option>
+          </select>
+        </td>
+      <tr>
+
+      <tr>
+        <td>Order&nbsp;Description </td>
+        <td><textarea name="info" cols="20" rows="5" placeholder="Enter Additional Info" size="30" class="input" required/></textarea></td>
+      </tr>
+
+      <td>
+         <p><input type="checkbox" name="yes">&nbsp;Saya&nbsp;Setuju</input></p>
+      </td>
+    </table>
+  </fieldset>
+    <input type="Submit" value="Order Now" class="buy" required/></input>
+</form>
+</div>
+
+
+<h3 class="que">Have a questions?</h3>
+<table>
+    <tbody>
+      <tr>
+          <td class="prod">
+           <ul class="a">
+            <a href="#Product" class="listed"><li>T-&nbsp;shirt</li>
+            <li>Hoodie</li>
+            <li>Tote&nbsp;Bag</li>
+            <li>Cap</li>
+            <li>Cloth&nbsp;Masks</li>
+          </ul>
+          </td>
+
+          <td class="prod">
+           <ul class="a">
+            <a href="#Product" class="listed"><li>T-&nbsp;shirt</li>
+            <li>Hoodie</li>
+            <li>Tote&nbsp;Bag</li>
+            <li>Cap</li>
+            <li>Cloth&nbsp;Masks</li>
+            </ul>
+          </td>
+
+          <td class="prod">
+           <ul class="a">
+             <a href="#Product" class="listed"><li>T-&nbsp;shirt</li>
+            <li>Hoodie</li>
+            <li>Tote&nbsp;Bag</li>
+            <li>Cap</li>
+            <li>Cloth&nbsp;Masks</li>
+            </ul>
+          </td>
+
+      <td class="icons">
+      <div align="left" id="Contact"> 
+        <a href="https://www.google.com/maps/place/Jl.+Saluyu+XVI+B+No.453,+Cipamokolan,+Kec.+Rancasari,+Kota+Bandung,+Jawa+Barat+40292/@-6.9529942,107.6825027,18z/data=!4m2!3m1!1s0x2e68c29092d49def:0xa17eb6131d33aba2?hl=id"><i class="fas fa-map-marker-alt">&nbsp;&nbsp;&nbsp;&nbsp;Saluyu&nbsp;XVI&nbsp;B&nbsp;street&nbsp;No.453,&nbsp;Rancasari,&nbsp;Bandung.</i></a></br>
+        <a href="https://api.whatsapp.com/send?phone=628979424489&text=I%20want%20to%20buy%20a%20Product%20"><i class="fas fa-phone-alt">&nbsp;&nbsp;&nbsp;&nbsp;+62-897-9424-489</i></a></br>
+        <a href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVkxBsPVLtRFBMwmvHFvcLPnChZVhjDzKMBdCPdXdTVCQJTZdkZFJRqRgcsfBhsDfcdwQZ'><i class="fas fa-envelope">&nbsp;&nbsp;&nbsp;&nbsp;sintanurleta@upi.edu</i></a></br>
+       </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+ <div id="menu2">
+    <a href="#header"><img class="img" src="aset/LOGO.png" width="80" height="30" align="center"></a>
+             <div class="dropdown">
+             <a href="#header"><button class="dropbtn">Home</button></a>
+              <div class="dropdown-content">
+              </div>
+             </div>
+
+             <div class="dropdown">
+              <a href="#About"><button class="dropbtn">About US</button></a>
+              <div class="dropdown-content">
+              </div>
+            </div>
+    <footer>
+      <p align="center" class="copy"> Copyright &copy; 2021 Selaras Serasa </p>
+    </footer>
+ </body>
+ </html>

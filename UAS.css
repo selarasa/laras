@@ -1,0 +1,274 @@
+.dropbtn {background-color: #616161;
+		  color: white;
+		  padding: 20px;
+		  font-size: 16px;
+		  border: none;
+		  cursor: pointer; }
+
+.dropdown {position: relative;
+		   display: inline-block; }
+
+.dropdown-content {display: none;
+				   position: absolute;
+				   background-color:orange;
+				   min-width: 115px;
+				   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				   z-index: 1; }
+
+.dropdown-content a {color: white;
+					 padding: 12px 16px;
+					 text-decoration: none;
+					 display: block; }
+
+.dropdown-content a:hover {background-color: #C7BEBE;}
+
+.dropdown:hover .dropdown-content {display: block; }
+
+.dropdown:hover .dropbtn {background-color: orange; }
+
+.submit:link {
+  background-color: orange;
+  text-decoration:none; 
+ 		list-style-type: none;
+}
+
+.submit:hover {
+  background-color: whitesmoke;
+}
+
+.submit:active {
+  background-color: yellow;
+} 
+
+.submit{padding:10px;
+		margin: 90px; }
+
+#menu a{text-decoration:none; 
+ 		list-style-type: none; }
+
+#menu{padding: 0 20px 0 0;
+	  text-decoration:none; 
+ 	  list-style-type: none;	
+	  background-color: #616161;
+	  text-align: left; }
+
+.img{padding:0 0 0 30px;
+	background-size: cover;}
+
+#runningtext{width 				: 100%;
+			 height				: 40px;
+		     background-color 	: #616161;
+			 color				: white;
+			 position			: fixed;
+			 padding-top        : 10px;
+			 top                : 0}
+
+#header{padding:20% 0 20% 0;
+		background-image: url('aset/56.jpg');
+		text-align: center; }
+
+body{margin  : 0;
+	 padding : 0;
+	 background-attachment: fixed;
+	 text-align: center;
+  	 font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+.jumbotext1{color: white;}
+.jumbotext2{color: white;
+			padding: 0 0 3% 0}
+
+
+a,h1,#footer{color:black; }
+
+h2{font-size: 35px;}
+
+p{margin: 0 10% 0 10%}
+
+.buy{margin: 8px 0px;}
+
+.shadow {margin: 10px;
+  	     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+	     border-radius: 10px;
+	     padding: 20px;
+	     margin-top: 20px; 
+	 	text-align: center;}
+
+.menu2,footer{width: 100%;
+	   padding:50px;
+	   background-color: grey; }
+
+.copy{color: white; }
+
+.Profil{float: left;
+	   margin-top: 4%;
+	   margin-bottom: 4%;
+       padding: 2% 0 2% 8%;
+  	     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+	     border-radius: 10px;}
+
+.me{float: left;
+	border-radius: 50%;} 
+
+
+#text3{text-align  : justify;
+	  text-indent : 5%; 
+	  line-height: 1.8;
+	  font-family:Georgia, Verdana, sans-serif;
+	  padding:3% 0 0 15%
+}
+
+* {box-sizing: border-box}
+
+.carousel {max-width   : 100%;
+  		   padding-top : 30%; }
+
+.prev:hover, .next:hover {background-color:orange; }
+
+.prev, .next {top: 50%;
+			  width: auto;
+			  padding: 16px;
+			  margin-top: -22px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 18px;
+			  transition: 0.6s ease;
+			  border-radius: 0 3px 3px 0;
+			  user-select: none; }
+
+.dot {cursor: pointer;
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {background-color: #717171; }
+
+.fade {-webkit-animation-name: fade;
+  	   -webkit-animation-duration: 1.5s;
+       animation-name: fade;
+       animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {from {opacity: .4} 
+  						 to {opacity: 1} }
+
+@keyframes fade {from {opacity: .4} 
+				 to {opacity: 1} }
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+	font-size: 15px;
+  padding: 10px 0px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.h2title{padding-top:25px;}
+
+.faq{padding-top: 10px;
+   font-size: 18px;}
+
+#form{background-color: #616161;
+	  color: white;}
+
+.get{padding-left: 0;
+	  color: white;
+	  line-height: 2;}
+.td{padding: 0 20% 0 0%;}
+
+.que{padding: 2% 0 0 40%;
+	 font-size: 25px}
+
+i{font-size: 15px;
+  padding: 0 0 10% 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+.icons{padding: 0 0 2% 17%;
+ font-family: "Trebuchet MS", Helvetica, sans-serif;}
+
+#menu2{
+	  text-decoration:none; 
+ 	  list-style-type: none;	
+	  background-color: #616161;
+	  text-align: left; }
+
+ul.a {list-style-type: circle;
+      line-height: 2; }
+
+.prod{padding: 10px 3% 4% 4%;
+	  font-size: 16px;}
+
+.assure{font:400 .875em/1.75 'Poppins', Arial, Helvetica, sans-serif;
+			   color:#878787;
+			   overflow-x:hidden;
+				margin: 5% 0 7% 12%; 
+				text-align: center;}
+
+.guarantee{color: #222222;}
+
+.listed{text-decoration:none;}
+
+.input,input:not([type="radio"]):not([type="checkbox"]),
+.jas a{height:40px;
+	   line-height:36px;}
+
+.input,input:not([type="submit"]):not([type="checkbox"]),
+.input,input[type="submit"],
+
+.jas a{cursor:pointer;
+		border:2px solid;
+		padding:0 34px;
+		background:#fff;
+		color:#222;
+		border-radius:40px;
+		font-size:14px;
+		font-weight:600;}
+
+.jas a{display:inline-block;
+	   background:transparent;}
+
+input[type="submit"]:hover,
+
+.jas a:hover{border-color:orange;
+	         background:orange;color:#fff;}
+
+
+@media (max-width:720px){
+    table,tbody,tr,td{
+        display:block; 
+        position:relative;
+    }
+ 
+    #runningtext{z-index: 10;}
+    #menu {text-align: center;
+    	display: grid;
+    	grid-template-columns: 1fr;
+   		  width: 100% }
+    #menu img{display: none;}
+	#header{background-size: cover;}
+	.icons{margin-left: 20px;
+			padding:10px;}
+	table{padding: 0;
+		  margin-left: 0px;}
+	fieldset{padding: 0;	
+			 margin: 0;}
+}
+
